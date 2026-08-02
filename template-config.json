@@ -1,0 +1,38 @@
+{
+  "buckets": {},
+  "services": {
+    "f744bd10-c729-4557-8177-753f59052f4a": {
+      "icon": "https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/icon.svg",
+      "name": "audiobookshelf",
+      "deploy": {
+        "startCommand": null,
+        "healthcheckPath": "/healthcheck",
+        "restartPolicyType": "ON_FAILURE",
+        "restartPolicyMaxRetries": 10
+      },
+      "source": {
+        "repo": "https://github.com/nomideusz/audiobookshelf-railway",
+        "rootDirectory": null
+      },
+      "variables": {
+        "PORT": {
+          "isOptional": false,
+          "description": "Port for Railway healthcheck probing. Do not change.",
+          "defaultValue": "80"
+        }
+      },
+      "networking": {
+        "serviceDomains": {
+          "<hasDomain>:80": {
+            "port": 80
+          }
+        }
+      },
+      "volumeMounts": {
+        "f744bd10-c729-4557-8177-753f59052f4a": {
+          "mountPath": "/data"
+        }
+      }
+    }
+  }
+}
