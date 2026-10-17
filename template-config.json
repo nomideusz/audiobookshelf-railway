@@ -1,7 +1,7 @@
 {
   "buckets": {},
   "services": {
-    "f744bd10-c729-4557-8177-753f59052f4a": {
+    "8ef49b2a-2b10-4d71-80f0-b545c32237ba": {
       "icon": "https://raw.githubusercontent.com/advplyr/audiobookshelf/master/client/static/icon.svg",
       "name": "audiobookshelf",
       "deploy": {
@@ -29,7 +29,7 @@
         }
       },
       "volumeMounts": {
-        "f744bd10-c729-4557-8177-753f59052f4a": {
+        "8ef49b2a-2b10-4d71-80f0-b545c32237ba": {
           "mountPath": "/data"
         }
       }
