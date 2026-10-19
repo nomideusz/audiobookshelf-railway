@@ -22,7 +22,7 @@ This template runs Audiobookshelf as a single Railway service. The config databa
 
 - [Audiobookshelf documentation](https://www.audiobookshelf.org/docs)
 - [Official mobile apps](https://www.audiobookshelf.org/docs#mobile-apps)
-- [Template source on GitHub](https://github.com/nomideusz/audiobookshelf-railway)
+- [Template source on GitHub](https://github.com/two-workspaces/audiobookshelf)
 
 ### Implementation Details
 

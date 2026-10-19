@@ -11,7 +11,7 @@
         "restartPolicyMaxRetries": 10
       },
       "source": {
-        "repo": "https://github.com/nomideusz/audiobookshelf-railway",
+        "repo": "https://github.com/two-workspaces/audiobookshelf",
         "rootDirectory": null
       },
       "variables": {
