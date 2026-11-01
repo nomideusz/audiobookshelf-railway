@@ -1,4 +1,4 @@
-FROM ghcr.io/advplyr/audiobookshelf:2.37.1
+FROM ghcr.io/advplyr/audiobookshelf:2.37.2
 
 # Railway allows one volume per service — mount it at /data and point
 # Audiobookshelf's config (SQLite DB) and metadata there, with the media
